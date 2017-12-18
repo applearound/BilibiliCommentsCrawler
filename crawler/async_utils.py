@@ -11,6 +11,7 @@ async def async_get(url, loop):
             r = await session.get(url)
             j = await r.json()
             loop.call_soon(functools.partial(logging.debug, '%s parse, done.' % url))
+            r.close()
             return j
 
 
