@@ -1,10 +1,14 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 
 # Environments
-env/
+.env
+env
 
 # IDE Settings
 .vscode/
+
+# OS X
+.DS_Store
