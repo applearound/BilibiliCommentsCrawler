@@ -4,6 +4,10 @@ A tiny crawler for [bilibili](https://www.bilibili.com) video comments based on 
 
 This version just makes the basic functionality work.
 
+Dependency:
+    aiohttp
+    beautifulsoup4
+
 Usage:
     Check your PYTHONPATH correct or not before using
 
