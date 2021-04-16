@@ -1,12 +1,11 @@
 # Bilibili Comments Crawler
 
-A tiny web crawler for [bilibili](https://www.bilibili.com) video comments based on asyncio. Using [requests](https://github.com/requests/requests), [aiohttp](https://github.com/aio-libs/aiohttp) and [SQLAlchemy](https://github.com/zzzeek/sqlalchemy) (not yet). 
+A tiny crawler for [bilibili](https://www.bilibili.com) video comments based on asyncio. Using [aiohttp](https://github.com/aio-libs/aiohttp). 
 
-This version just makes the basic functionality work. Not reliable.
+This version just makes the basic functionality work.
 
 Usage:
+    Check your PYTHONPATH correct or not before using
 
-1. `pip install -r requirements`
-2. `python crawler av23333`
-
-Seek in `python crawler -h` for more information.
+    `python -m get_replies -h` for help
+    `python -m get_replies --bv 1tB4y1P79F -n 10 -o /path/to/output_file`

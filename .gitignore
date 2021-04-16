@@ -12,3 +12,6 @@ env
 
 # OS X
 .DS_Store
+
+# Project
+replies.txt
