@@ -5,16 +5,7 @@ import urllib
 import aiohttp
 import bs4
 
-"""
-Query Params:
-callback = jQuery33103988324956513716_1618491819366
-jsonp = jsonp
-pn = 3
-type = 1
-oid = 887285744
-sort = 2
-_ = 1618491819371
-"""
+
 VIDEO_API = 'https://www.bilibili.com/video'
 HOT_REPLY_API = 'https://api.bilibili.com/x/v2/reply'
 
